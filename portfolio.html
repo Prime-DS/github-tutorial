@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Основные шрифты --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+        
+    <!-- Нормалзация стилей -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
+
+
+    <!-- Стили -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!--Шапка сайта-->
+    <header class="header">
+        <div class="container header-container">
+            <nav class="header-nav">
+    
+                <a class="logo link header-logo" href="/">Web<span class="logo-primery">Studio</span>
+                </a>
+    
+                <ul class="nav-list list">
+                    <li class="nav-item">
+                        <a class="nav-link link" href="./index.html">Студия</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link link current" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link" href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <ul class="contact-list list">
+                <li class="contact-list-item">
+                    <a class="contact-mail link" href="milto:info@devstudio.com">
+                        <svg class="contact-icon" width="16" height="12">
+                            <use href="./images/icons.svg#icon-envelope">
+                            </use>
+                        </svg>info@devstudio.com
+                    </a>
+                </li>
+                <li class="contact-list-item">
+                    <a class="contact-phone link" href="tel:+380961111111">
+                        <svg class="contact-icon" width="10" height="16">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg> +38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+    <section class="portfolio">
+        <div class="portfolio-container container">
+        <ul class="portfolio-nav list">
+            <li class="portfolio-nav-item">
+                <button class="portfolio-nav-btn" type="button">Все</button>
+            </li>
+            <li class="portfolio-nav-item">
+                <button class="portfolio-nav-btn" type="button">Веб-сайты</button>
+            </li>
+            <li class="portfolio-nav-item">
+                <button class="portfolio-nav-btn" type="button">Приложения</button>
+            </li>
+            <li class="portfolio-nav-item">
+                <button class="portfolio-nav-btn" type="button">Дизайн</button>
+            </li>
+            <li class="portfolio-nav-item">
+                <button class="portfolio-nav-btn" type="button">Маркетинг</button>
+            </li>
+        </ul>
+
+<!-- portfolio-list -->
+        <ul class="portfolio-list list">
+            <li class="portfolio-list-item">
+                <a class="portfolio-link link" href="">
+                    <div class="portfolio-wrapper">
+                        <img src="./images/technoquack.jpg" alt="изображение сайта" width="370" height="294">
+                        <p class="portfolio-descr">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
+                        исчерпывающие сведения о компании или частном лице.</p>
+                    </div>
+                    <div class="div-in-portfolio-list">
+                        <h3 class="portfolio-subtitle">Технокряк</h3>
+                        <p class="portfolio-text text">Веб-сайт</p>
+                   
+                    </div>
+                </a>
+                
+
+            
+            </li>
+            <li class="portfolio-list-item">
+                <a class="portfolio-link link" href="">
+                    <img src="./images/new-orlean.jpg" alt="фото баскетболистов" width="370" height="294">
+                    <div class="div-in-portfolio-list">
+                        <h3 class="portfolio-subtitle">Постер New Orlean vs Golden Star</h3>
+                        <p class="portfolio-text text">Дизайн</p>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-list-item">
+                <a class="portfolio-link link" href="">
+                    <img src="./images/restaurant-seafood.jpg" alt="фото логотипа" width="370" height="294">
+                    <div class="div-in-portfolio-list">
+                        <h3 class="portfolio-subtitle">Ресторан Seafood</h3>
+                        <p class="portfolio-text text">Приложение</p>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-list-item">
+                <a class="portfolio-link link" href="">
+                    <img src="./images/project-prime.jpg" alt="фото наушников" width="370" height="294">
+                    <div class="div-in-portfolio-list">
+                        <h3 class="portfolio-subtitle">Дизайн</h3>
+                        <p class="portfolio-text text">Маркетинг</p>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-list-item">
+                <a class="portfolio-link link" href="">
+                    <img src="./images/projeck-boxes.jpg" alt="фото боксов" width="370" height="294">
+                    <div class="div-in-portfolio-list">
+                        <h3 class="portfolio-subtitle">Проект Boxes</h3>
+                        <p class="portfolio-text text">Приложение</p>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-list-item">
+                <a class="portfolio-link link" href="">
+                    <img src="./images/inspiration.jpg" alt="фото сайта" width="370" height="294">
+                    <div class="div-in-portfolio-list">
+                        <h3 class="portfolio-subtitle">Inspiration has no Borders</h3>
+                        <p class="portfolio-text text">Веб-сайт</p>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-list-item">
+                <a class="portfolio-link link" href="">
+                    <img src="./images/limited-edition.jpg" alt="фото журнала" width="370" height="294">
+                    <div class="div-in-portfolio-list">
+                        <h3 class="portfolio-subtitle">Издание Limited Edition</h3>
+                        <p class="portfolio-text text">Дизайн</p>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-list-item">
+                <a class="portfolio-link link" href="">
+                    <img src="./images/project-lab.jpg" alt="изображение логотипа" width="370" height="294">
+                    <div class="div-in-portfolio-list">
+                        <h3 class="portfolio-subtitle">Проект LAB</h3>
+                        <p class="portfolio-text text">Маркетинг</p>
+                    </div>
+                </a>
+            </li>
+            <li class="portfolio-list-item">
+                <a class="portfolio-link link" href="">
+                    <img src="./images/growing-business.jpg" alt="изображение приложения" width="370" height="294">
+                    <div class="div-in-portfolio-list">
+                        <h3 class="portfolio-subtitle">Growing Business</h3>
+                        <p class="portfolio-text text">Приложение</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        </div>
+    </section>
+    </main>
+
+<!--Футер-->
+<footer class="footer">
+    <div class="footer-container container">
+        <div>
+            <a class="logo link footer-logo" href="/">Web<span class="logo-secondary">Studio</span></a>
+
+            <address class="address">
+                г. Киев, пр-т Леси Украинки, 26
+            </address>
+
+            <ul class="footer-list list">
+                <li class="footer-list-item">
+                    <a class="footer-link link" href="milto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="footer-list-item">
+                    <a class="footer-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="social-media">
+            <h3 class="social-media-subtitle subtitle">присоединяйтесь</h3>
+            <ul class="social-media-list list">
+                <li class="social-media-item">
+                    <a class="social-media-link" href="">
+                        <svg width="20" height="20">
+                            <use href="./images/icons.svg#icon-instagram-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-media-item">
+                    <a class="social-media-link" href="">
+                        <svg width="20" height="20">
+                            <use href="./images/icons.svg#icon-twitter-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-media-item">
+                    <a class="social-media-link" href="">
+                        <svg width="20" height="20">
+                            <use href="./images/icons.svg#icon-facebook-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-media-item">
+                    <a class="social-media-link" href="">
+                        <svg width="20" height="20">
+                            <use href="./images/icons.svg#icon-linkedin-1"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>
